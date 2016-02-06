@@ -1,0 +1,92 @@
+/*
+author => hendri saputra
+theme  => portfolio version_!
+*/
+
+body{
+	position: relative;
+	background-color: #fff;
+}
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+.navbar-fixed {
+    height: 100px;
+}
+
+nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
+    height: 99px;
+    line-height: 99px;
+}
+
+.teal-text.text-lighten-2{
+	color: #ffffff !important;
+	padding-top: 98px;
+}
+
+.waves-effect.waves-light{
+	margin-top: 15px;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+   background-color: #009688 !important;
+}
+
+.teal {
+    background-color: #009688 !important;
+}
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-floating) {
+    color: rgba(0, 0, 0, 0.85);
+    margin-right: 20px;
+    transition: color .3s ease;
+    text-transform: uppercase;
+}
+
+img.responsive-img, video.responsive-video {
+    max-width: 200px;
+    height: auto;
+}
